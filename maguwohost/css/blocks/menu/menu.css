@@ -1,0 +1,19 @@
+.menu {
+    float: right;
+}
+.menu__item {
+    display: inline-block;
+    padding-left: 33px;
+}
+.menu__link {
+    color: #202242;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform:uppercase;
+    line-height: 3;
+}
+.menu__link:hover {
+    color: #ffe13e;
+    font-weight: 700;
+}

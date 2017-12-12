@@ -1,0 +1,96 @@
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.mobile-menu {
+    display: none;
+}
+.header {
+    padding-top: 15px;
+}
+.header__navigation {
+    width: 560px;
+}
+.menu {
+    float: left;
+    width: 290px;
+}
+.menu__item {
+    padding-left: 35px;
+}
+.header-navigation {
+    padding: 0;
+    width: 550px;
+}
+.header-navigation:after {
+    width: 3px;
+    height: 112px;
+    right: 25px;
+    top: -16px;
+}
+.header-call {
+    width: 125px;
+}
+.header-call__text {
+    display: none;
+}
+.header-call__link:after {
+    display: none;
+}
+.header-call__phone {
+    padding:5px 0 0 0;
+}
+.banner {
+    padding-top: 40px;
+}
+.block_dark {
+    background-position-x:center; 
+}
+.block__text {
+    width: 90%;
+}
+.aside {
+    width: 25%;
+    padding-right: 0; 
+}
+.icons {
+    width: 75%;
+    text-align: center;
+}
+.icons__img {
+    width: 40%;
+    padding-bottom: 24px;
+}
+.icons__img_last {
+    padding-right: 24px;
+}
+.comment {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.bl {
+    padding-bottom: 20px;
+}
+.section__block {
+    padding-left: 0;
+}
+.section__block {
+    text-align: center;
+    float: none;
+}
+.section {
+    text-align: center;
+}
+.button {
+    float: none;
+}
+.section__text {
+    padding-bottom: 25px;
+}
+.footer {
+    background-position-x:-300px; 
+}
+
+}

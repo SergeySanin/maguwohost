@@ -1,0 +1,20 @@
+.footer-menu {
+    float: right;
+    padding-bottom: 90px;
+}
+.footer-menu__link {
+    display: block;
+    width: 60px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255,255,255, .16);
+    padding: 8px 0;
+}
+.footer-menu__link:hover {
+    color: #ffe13e;
+}
+.footer-menu__link_last {
+    border: none;
+}

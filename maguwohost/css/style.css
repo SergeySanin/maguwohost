@@ -1,0 +1,223 @@
+/*Сброс стилей*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Rockwell", sans-serif;
+    text-decoration: none;
+}
+.clearfix:after{
+     content: " ";
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     clear: both;
+     height: 0;
+}
+    /*Хедер*/
+.header {
+    background-color: #ffffff;
+    padding-top: 40px;
+}
+.header-navigation {
+    width: 840px;
+    display: inline-block;
+    padding-bottom: 55px;
+    padding-top: 20px;
+    padding-right: 48px;
+    float: left;
+    position: relative;
+}
+.header-navigation:after {
+    content: ' ';
+    display: block;
+    width: 3px;
+    height: 163px;
+    background-color:#ebebeb;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    visibility: visible;
+}
+.banner {
+    background: url("../img/FlyBall.png") no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    padding-top: 219px;
+    padding-bottom: 139px;
+}
+.banner__header {
+    color: #ffffff;
+    font-family: Rockwell;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 26px;
+}
+.banner__title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 33px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 220px;
+    background: url("../img/shape-6.png") no-repeat;
+    background-position: center 88px;
+}
+.block_dark {
+    background: url("../img/cup.png") no-repeat #202242;
+    background-position: 314px 115px;
+}
+.btn_light-hover:hover {
+    border-color: #ffe13e;
+    color: #ffe13e;
+}
+.block_yellow {
+    background: url("../img/-com.png") no-repeat #ffe13e;
+    background-position:center 182px;
+}
+.btn_dark-hover:hover {
+    color: #202242;
+    border-color: #202242;
+}
+.content {
+    padding-top: 84px;
+    padding-bottom: 120px;
+    background: url("../img/snow.png") no-repeat #fbf8f1;
+    background-position: center 86px;
+}
+.content__title {
+    color: #202242;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.content__small-title {
+    text-align: center;
+    color: #202242;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 13px;
+    padding-bottom: 84px;
+}
+.bl {
+    background-color: #ffffff;
+    padding-top: 75px;
+    padding-bottom: 109px;
+}
+.row {
+    padding-bottom: 80px;
+}
+.aside {
+    width: 325px;
+    padding-right: 75px;
+    float: left;
+}
+.aside__title {
+    color: #202242;
+    font-family: Raleway;
+    font-size: 36px;
+    text-align: left;
+}
+.aside__text {
+    color: #adadad;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    padding-top: 15px;
+}
+.icons {
+    float: left;
+    padding-top: 20px;
+}
+.icons__img {
+    padding-right: 24px;
+}
+.icons__img_last {
+    padding-right: 0;
+}
+.section {
+    background-color: #202242;
+    padding-top: 90px;
+    padding-bottom: 83px;
+}
+.section__block {
+    text-align: left;
+    padding-left: 90px;
+    float: left;
+}
+.section__title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+}
+.section__text {
+    color: #67687b;
+    font-family: Raleway;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.footer {
+    background:url("../img/map.png") no-repeat #363855;
+    padding-top: 142px;
+    padding-bottom: 72px;
+    position:relative;
+    background-position: 115px 95px;
+}
+.footer-navigation {
+    text-align: right;
+    float: right;
+}
+.footer-navigation__title {
+    display: block;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footer-navigation__up {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    float: right;
+    clear: right;
+}
+.footer-navigation__up:hover {
+    color: #ffe13e;
+}
+.footer__copyright {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    clear: both;
+    padding-top: 70px;
+    background: url("../img/copyicon.png") no-repeat center center;
+}
+    /*Медиа запросы*/
+
+@media screen and (min-width: 1195px) {
+.container {
+    width: 1175px;
+    margin: 0 auto;
+}
+.mobile-menu {
+    display: none;
+}
+.block_dark {
+    background-position-x:center;
+}
+
+}

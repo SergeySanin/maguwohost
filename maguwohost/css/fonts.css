@@ -1,0 +1,29 @@
+/*Шрифты*/
+
+@font-face {
+    font-family: 'simplifica';
+    src: url('../fonts/simplifica-webfont.woff2') format('woff2'),
+         url('../fonts/simplifica-webfont.woff') format('woff'),
+         url('../fonts/simplifica-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Rockwell";
+    src: url("../fonts/RockwellRegular.eot");
+    src: url("../fonts/RockwellRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellRegular.woff") format("woff"),
+    url("../fonts/RockwellRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+    @font-face {
+    font-family: "RockwellBoldItalic";
+    src: url("../fonts/RockwellBoldItalic.eot");
+    src: url("../fonts/RockwellBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellBoldItalic.woff") format("woff"),
+    url("../fonts/RockwellBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }

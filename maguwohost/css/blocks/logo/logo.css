@@ -1,0 +1,14 @@
+.logo {
+    background: url("logo_icon.png") no-repeat;
+    background-position: left, bottom;
+    padding-left: 48px;
+    float: left;
+}
+.logo__link {
+    color: #202242;
+    font-size: 30px;
+    font-weight: 400;
+}
+.logo__link-bold {
+    font-weight: 700;
+}

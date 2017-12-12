@@ -1,0 +1,15 @@
+.social {
+    clear: right;
+    padding-bottom: 90px;
+}
+.social__item {
+    display: inline-block;
+}
+.social__link {
+    color: #ffe13e;
+    font-size: 18px;
+    font-weight: 400;
+}
+.social__link:hover {
+    color: #ffffff;
+}

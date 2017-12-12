@@ -1,0 +1,33 @@
+.comment {
+    width: 374px;
+    background-color: #faf9f9;
+    float: left;
+    margin-right: 25px;
+    padding: 20px 30px 28px 22px;
+    text-align: left;
+    position: relative;
+}
+.comment_last {
+    margin-right: 0;
+}
+.comment__text {
+    color: #a4a4a4;
+    font-family: Rockwell;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.comment__name {
+    color: #696969;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+}
+.comment__photo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 20px;
+    margin-bottom: -50px;
+}

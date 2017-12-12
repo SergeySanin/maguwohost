@@ -1,0 +1,167 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+ .container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Content*/
+
+.header {
+    padding-top: 10px;
+}
+.header-navigation {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.header-navigation:after {
+    display: none;
+}
+.logo {
+    float: none;
+    padding: 0;
+    background-position-x:25px; 
+}
+.menu {
+    display: none;
+}
+.header-call {
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.header-call__text {
+    padding: 10px 0;
+}
+.banner {
+    padding:20px 0 50px 0;
+}
+.banner__header {
+    font-size: 30px;
+}
+.banner__title {
+    font-size: 25px;
+    padding-bottom: 160px;
+    background-position-y:50px; 
+}
+.block {
+    padding: 215px 10px 60px;
+    background-position: center 30px;
+}
+.block_yellow {
+  background-position: center 85px;
+}
+.form {
+    width: 100%;
+    background: transparent;
+    max-width: 400px;
+}
+.form__input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form__select {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form__button {
+    width: 100%;
+}
+.block {
+    float: none;
+    width: 100%;
+}
+.block__text {
+    width: 100%;
+}
+.content {
+    padding-top: 35px;
+    padding-bottom: 0;
+}
+.content__small-title {
+    padding-bottom: 35px;
+}
+.box-col {
+    float: none;
+    width: 100%;
+    padding-bottom: 70px;
+}
+.bl {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.aside {
+    width: 100%;
+    padding: 0;
+}
+.aside__title {
+    text-align: center;
+}
+.aside__text {
+    text-align: center;
+}
+.icons {
+    padding-top: 45px;
+    width: 100%;
+    text-align: center;
+}
+.icons__img {
+    padding: 0 10px 10px 0;
+    width: 40%;
+}
+.row {
+    padding-bottom: 30px;
+}
+.comment {
+    width: 100%;
+    float: none;
+    margin:0 auto 40px auto ;
+    padding-bottom: 90px;
+    max-width: 500px;
+}
+.comment__photo {
+    bottom: 60px;
+}
+.section {
+    padding: 35px 0;
+    text-align: center;
+}
+.section__block {
+    padding: 0;
+    float: none;
+}
+.section__title {
+    font-size: 25px;
+    text-align: center;
+}
+.section__text {
+    padding: 15px 0 25px 0;
+    text-align: center;
+}
+.button {
+    float: none;
+    padding: 20px 35px;
+}
+.footer {
+    padding: 50px 0;
+    background-position: -402px 45px;
+    background-size: 200%;
+}
+.footer-menu__link {
+    padding: 5px 0;
+}
+.footer-menu {
+    padding-bottom: 25px;
+}
+.social {
+    padding-bottom: 35px;
+}
+
+
+
+.animated {
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+}
